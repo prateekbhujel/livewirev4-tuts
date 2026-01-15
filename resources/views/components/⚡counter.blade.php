@@ -19,10 +19,10 @@ new class extends Component
 ?>
 
 <div>
-   <button type="button" wire:click="increment">+</button>
-   <button type="button" wire:click="decrement">-</button>
+   <button type="button" wire:click="increment">Increment</button>
+   <button type="button" wire:click="decrement">Decrement</button>
 
     <div>
-        {{ $count }}
+        Counter: {{ $count }}
     </div>
 </div>
